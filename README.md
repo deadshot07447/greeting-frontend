@@ -18,13 +18,13 @@ A simple Next.js frontend app that fetches a greeting message from a backend RES
    copy .env.local.example .env.local
 
 3. Update the backend URL if needed in .env.local:
-   NEXT_PUBLIC_API_BASE_URL=http://localhost:3000
+   NEXT_PUBLIC_API_BASE_URL=http://localhost:5000
 
 ## Run the app
 
 npm run dev
 
-Open http://localhost:3002 in your browser.
+Open http://localhost:3000 in your browser.
 
 ## Project structure
 
@@ -35,4 +35,4 @@ Open http://localhost:3002 in your browser.
 ## Notes
 
 The app expects the backend API to be available at:
-http://localhost:3000/api/greeting
+http://localhost:5000/api/greeting
