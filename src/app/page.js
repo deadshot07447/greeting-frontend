@@ -28,7 +28,7 @@ export default function HomePage() {
   return (
     <main className="page">
       <div className="card">
-        <h1>Greeting App</h1>
+        <h1>Greeting App (Pipeline V2)</h1>
         <GreetingButton onClick={handleFetchGreeting} loading={loading} />
         <GreetingMessage message={message} error={error} loading={loading} />
       </div>
